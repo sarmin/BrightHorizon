@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{font-size:12px; line-height:10px;}
+.banner{
+	padding-left: 150px;
+  	padding-right: 150px;
+  	background-color: #ebe5dd;
+	height:80px;
+}
+.logo{
+ background-image:url(../img/Logo.png);
+ height:70px;
+ width:150px;display:inline; float:left
+}
+.title{display:inline; float:right; font-color: black; padding-top:40px; font-size:22px;}
+.content{
+background-image:url(../img/ContentBackground.png); background-repeat:repeat display:block;
+height:auto; padding-left:150px; padding-right:150px; padding-top:20px; padding-bottom:30px; margin-top:-65px;
+}
+.content-inner{ background-color:#65a1aa; padding:30px;}
+.contentHeader{display:inline; float:left; width:100%;}
+.imgContainer{display:inline; float:left; }
+.img{max-height:40px; max-width:40px; border-color:#82E1FD; border-style:solid; border-width:2px;}
+.imgDetails{display:inline; float:left; color:white; line-height:1px; padding-left:10px; font-size:9px; width:500px;}
+.buttonContainer{display:inline; float:right; text-align:right}
+.sign{background-image:url(../img/ViewSign.png);}
+.AddToCal{background-image:url(../img/AddToCalendar.png);}
+input[type=button]{ width:100px; height:25px;}
+.footer{background-color:#1e3b06; height:40px; text-align:center; vertical-align:middle; padding:5px; color:white;}
+.text{color: white; font-size:15px;}
+.bee{margin-left:1216px;}
